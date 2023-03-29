@@ -81,7 +81,7 @@ export class NotificationKit {
     ${options.msgtype === "html" ? options.content : `<pre style="margin: 0;">${options.content}</pre>`}
   </main>
   <footer class="jj-footer">
-    <span>稀土掘金助手v${pkg.version}</span> |
+    <span><a href="https://juejin.cn/user/center/gains">稀土掘金助手</a> v${pkg.version}</span> |
     <span>Copyright © ${new Date().getFullYear()} Derek Li.</span>
   </footer>
 </section>
